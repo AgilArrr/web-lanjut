@@ -11,8 +11,8 @@ class UserController extends Controller
 {
     public function index()
     {
-        $user = UserModel::with('level')->get();
-        dd($user);
+        //$user = UserModel::with('level')->get();
+        //dd($user);
 
         // Tambah data user dengan Eloquent Model
         //$data = [
